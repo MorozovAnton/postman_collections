@@ -1,0 +1,16 @@
+{
+  "name": "newman_for_jenkins",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "collections": "collections"
+  },
+  "scripts": {
+    "collection_monitor": "newman run collection/Sandbox.postman_collection.json"
+  },
+  "author": "Morozov",
+  "dependencies": {
+    "newman": "^5.0.1"
+  }
+}
